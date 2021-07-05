@@ -4,4 +4,3 @@
 
 override_dh_auto_install:
 	./install.sh --dest $$(pwd)/debian/tmp/usr/share/themes --icon debian --background blank
-	# $(MAKE) DESTDIR=$$(pwd)/debian/tmp prefix=/usr install

@@ -1,4 +1,4 @@
-Source: whitesur-gtk-theme
+Source: whitesur-gtk-themes
 Section: misc
 Priority: optional
 Maintainer: Cézar Augusto de Campos <cezargaiteiro@protonmail.com>
@@ -9,7 +9,7 @@ Homepage: https://github.com/vinceliuice/WhiteSur-gtk-theme
 Vcs-Browser: https://github.com/cizordj/whitesur-gtk-theme-debian
 Vcs-Git: https://github.com/cizordj/whitesur-gtk-theme-debian.git
 
-Package: whitesur-gtk-theme
+Package: whitesur-gtk-themes
 Architecture: all
 Depends: gtk2-engines-murrine,
  libglib2.0-dev,
