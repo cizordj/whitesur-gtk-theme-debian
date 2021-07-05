@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: whitesur-gtk-theme
+Upstream-Contact: Vince Liuice <vinceliuice@hotmail.com>
+Source: <https://github.com/vinceliuice/WhiteSur-gtk-theme>
+
+Files: debian/
+Copyright: 2021 Cézar Augusto de Campos <cezargaiteiro@protonmail.com>
+License: GPL-3+
+
+Files: *
+Copyright: 2021 Vince Liuice <vinceliuice@hotmail.com>
+License: GPL-3+
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3`.
