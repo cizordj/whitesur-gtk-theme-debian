@@ -2,7 +2,11 @@ Source: whitesur-gtk-themes
 Section: misc
 Priority: optional
 Maintainer: Cézar Augusto de Campos <cezargaiteiro@protonmail.com>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13),
+ sassc,
+ libglib2.0-dev-bin,
+ gtk2-engines-murrine,
+ libxml2-utils
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Homepage: https://github.com/vinceliuice/WhiteSur-gtk-theme
@@ -12,7 +16,6 @@ Vcs-Git: https://github.com/cizordj/whitesur-gtk-theme-debian.git
 Package: whitesur-gtk-themes
 Architecture: all
 Depends: gtk2-engines-murrine,
- libglib2.0-dev,
  libxml2-utils,
  ${misc:Depends}
 Description: A macOS BigSur-like theme for your GTK apps
