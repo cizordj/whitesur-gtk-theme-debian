@@ -15,9 +15,27 @@ Vcs-Git: https://github.com/cizordj/whitesur-gtk-theme-debian.git
 
 Package: whitesur-gtk-themes
 Architecture: all
+Depends: whitesur-dark-gtk-theme,
+ whitesur-light-gtk-theme,
+ ${misc:Depends}
+Description: A macOS BigSur-like theme for your GTK apps
+ Make your desktop look beautiful with this GTK theme inspired on MacOS design,
+ it works on Gnome, XFCE and any other desktop environment that uses GTK.
+
+Package: whitesur-dark-gtk-theme
+Architecture: all
 Depends: gtk2-engines-murrine,
  libxml2-utils,
  ${misc:Depends}
-Description: A macOS BigSur-like theme for your GTK apps
+Description: A macOS BigSur-like theme for your GTK apps (dark variant)
+ Make your desktop look beautiful with this GTK theme inspired on MacOS design,
+ it works on Gnome, XFCE and any other desktop environment that uses GTK.
+
+Package: whitesur-light-gtk-theme
+Architecture: all
+Depends: gtk2-engines-murrine,
+ libxml2-utils,
+ ${misc:Depends}
+Description: A macOS BigSur-like theme for your GTK apps (light variant)
  Make your desktop look beautiful with this GTK theme inspired on MacOS design,
  it works on Gnome, XFCE and any other desktop environment that uses GTK.
