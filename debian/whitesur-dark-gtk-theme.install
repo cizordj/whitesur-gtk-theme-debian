@@ -1,4 +1,4 @@
-./debian/tmp/usr/share/themes/WhiteSur-dark usr/share/themes/WhiteSur-dark
-./debian/tmp/usr/share/themes/WhiteSur-dark-hdpi usr/share/themes/WhiteSur-dark-hdpi
-./debian/tmp/usr/share/themes/WhiteSur-dark-solid usr/share/themes/WhiteSur-dark-solid
-./debian/tmp/usr/share/themes/WhiteSur-dark-xhdpi usr/share/themes/WhiteSur-dark-xhdpi
+./debian/tmp/usr/share/themes/WhiteSur-dark       usr/share/themes
+./debian/tmp/usr/share/themes/WhiteSur-dark-hdpi  usr/share/themes
+./debian/tmp/usr/share/themes/WhiteSur-dark-solid usr/share/themes
+./debian/tmp/usr/share/themes/WhiteSur-dark-xhdpi usr/share/themes
