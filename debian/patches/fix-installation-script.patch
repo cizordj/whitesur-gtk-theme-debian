@@ -1,0 +1,17 @@
+Make the script let us install the themes in the source directory
+Index: whitesur-gtk-theme-debian/lib-core.sh
+===================================================================
+--- whitesur-gtk-theme-debian.orig/lib-core.sh
++++ whitesur-gtk-theme-debian/lib-core.sh
+@@ -481,10 +481,7 @@ check_param() {
+ 
+     case "${global_param}" in
+       -d)
+-        if [[ "$(readlink -m "${value}")" =~ "${REPO_DIR}" ]]; then
+-          prompt -e "'${display_param}' ERROR: Can't install in the source directory."
+-          has_any_error="true"
+-        elif [[ ! -w "${value}" && ! -w "$(dirname "${value}")" ]]; then
++        if [[ ! -w "${value}" && ! -w "$(dirname "${value}")" ]]; then
+           prompt -e "'${display_param}' ERROR: You have no permission to access that directory."
+           has_any_error="true"
+         else
