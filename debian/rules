@@ -3,4 +3,8 @@
 	dh $@
 
 override_dh_auto_install:
+	mkdir $$(pwd)/debian/tmp
+	mkdir $$(pwd)/debian/tmp/usr
+	mkdir $$(pwd)/debian/tmp/usr/share
+	mkdir $$(pwd)/debian/tmp/usr/share/themes
 	./install.sh --dest $$(pwd)/debian/tmp/usr/share/themes --icon debian --background blank
